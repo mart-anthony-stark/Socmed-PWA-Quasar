@@ -4,9 +4,7 @@
       <q-toolbar>
         <q-btn dense flat round icon="menu" @click="toggleLeftDrawer" />
 
-        <q-toolbar-title> Omegol </q-toolbar-title>
-
-        <q-btn dense flat round icon="menu" @click="toggleRightDrawer" />
+        <q-toolbar-title> Flirteer </q-toolbar-title>
       </q-toolbar>
     </q-header>
 
