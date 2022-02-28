@@ -54,7 +54,7 @@
         rounded
         outlined
         v-model="text"
-        label="Search"
+        label="Search Flirteer"
       >
         <template v-slot:prepend>
           <q-icon name="search" />
