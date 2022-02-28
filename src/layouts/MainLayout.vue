@@ -4,7 +4,9 @@
       <q-toolbar>
         <q-btn dense flat round icon="menu" @click="toggleLeftDrawer" />
 
-        <q-toolbar-title class="text-bold"> Flirteer </q-toolbar-title>
+        <q-toolbar-title class="text-bold">
+          <span class="gt-sm">Flirteer</span>
+        </q-toolbar-title>
       </q-toolbar>
     </q-header>
 
