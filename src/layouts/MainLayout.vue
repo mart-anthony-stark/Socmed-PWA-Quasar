@@ -4,16 +4,17 @@
       <q-toolbar>
         <q-btn dense flat round icon="menu" @click="toggleLeftDrawer" />
 
-        <q-toolbar-title> Flirteer </q-toolbar-title>
+        <q-toolbar-title class="text-bold"> Flirteer </q-toolbar-title>
       </q-toolbar>
     </q-header>
 
     <q-drawer show-if-above v-model="leftDrawerOpen" side="left" bordered>
-      <!-- drawer content -->
+      <!-- left drawer content -->
+      <q-icon name="favorite" size="lg" color="primary" />
     </q-drawer>
 
     <q-drawer show-if-above v-model="rightDrawerOpen" side="right" bordered>
-      <!-- drawer content -->
+      <!-- right drawer content -->
     </q-drawer>
 
     <q-page-container>
